@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis|Lobster|Montserrat|Muli|Nunito|Open+Sans+Condensed:300|Oxygen|PT+Sans');
+.container-fluid
+{
+    background-size: 50px 50px;
+background-color: #f90;
+background-image: -webkit-linear-gradient(0deg, rgba(255, 255, 255, .2) 50%, transparent 50%, transparent);
+background-image: -moz-linear-gradient(0deg, rgba(255, 255, 255, .2) 50%, transparent 50%, transparent);
+background-image: linear-gradient(90deg, rgba(255, 255, 255, .2) 50%, transparent 50%, transparent);
+-pie-background: linear-gradient(90deg, rgba(255, 255, 255, .2) 50%, transparent 50%, transparent) 0 0 / 50px 50px #f90;
+behavior: url(/pie/PIE.htc);
+}
+
+.container-fluid::after
+{
+    background-size: 50px 50px;
+background-color: #0ae;
+background-image: -webkit-linear-gradient(rgba(255, 255, 255, .2) 50%, transparent 50%, transparent);
+background-image: -moz-linear-gradient(rgba(255, 255, 255, .2) 50%, transparent 50%, transparent);
+background-image: linear-gradient(rgba(255, 255, 255, .2) 50%, transparent 50%, transparent);
+-pie-background: linear-gradient(rgba(255, 255, 255, .2) 50%, transparent 50%, transparent) 0 0 / 50px #0ae;
+behavior: url(/pie/PIE.htc);
+}
+
+.container-fluid
+{
+    
+    
+    animation : back ease-in infinite 3s;
+}
+@keyframes back
+{
+  50%{background-image: url(/pie/PIE.htc);}
+  100%{background-image:url(/pie/PIE.htc); }
+}

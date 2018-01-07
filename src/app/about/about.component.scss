@@ -1,0 +1,48 @@
+.container-fluid
+{
+    padding-top: 100px;
+    height:auto;
+}
+.container
+{   z-index: 10;
+    margin-top: -150px;
+   background-color:cornflowerblue;
+   height: auto;
+   border-radius: 1px;
+   
+}
+
+.row
+{
+    border-radius: 1px;
+}
+
+.left
+{
+    padding:30px;
+    font-size: 1.5em;
+}
+.d-flex
+{
+    background-color: crimson;
+    font-size: 50px;
+    color: antiquewhite;
+    border-radius: 2px;
+    font-family:'Cabin Condensed', sans-serif;
+}
+.gate
+{
+    padding: 20px;
+    font-size: 1.5em;
+}
+.right
+{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.dart
+{
+    width: 200px;
+    height: auto;
+}
